@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site sobre a carreira e conquistas de Neymar Jr, um dos maiores talentos do futebol brasileiro e mundial.">
+  <meta name="keywords" content="Neymar Jr, Futebol, Santos, Barcelona, PSG, Brasil, Carreira">
+  <title>Neymar Jr | Carreira e Conquistas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+    <nav class="container">
+      <div class="logo">
+        <h1>NJR<span>10</span></h1>
+      </div>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#inicio" class="active">Início</a></li>
+        <li><a href="#carreira">Carreira</a></li>
+        <li><a href="#estatisticas">Estatísticas</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#conquistas">Conquistas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <img src="assets/ney.jpg" alt="Neymar Jr" class="hero-background">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Neymar Jr</h1>
+        <h2>O Menino da Vila</h2>
+        <p>Um dos maiores talentos da história do futebol brasileiro e mundial. Reconhecido por seu estilo único, dribles impressionantes e capacidade de decidir jogos importantes.</p>
+        <a href="#carreira" class="btn">Conhecer Trajetória</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="carreira" class="section">
+    <div class="container">
+      <h2 class="section-title">Carreira</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="year">2009-2013</div>
+          <div class="content">
+            <h3>Santos FC</h3>
+            <p>Início profissional e ascensão no futebol brasileiro. Conquistou a Copa Libertadores e se tornou ídolo santista.</p>
+            <span class="badge">230 jogos</span>
+            <span class="badge">136 gols</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2013-2017</div>
+          <div class="content">
+            <h3>FC Barcelona</h3>
+            <p>Formou o trio "MSN" com Messi e Suárez, conquistando a Champions League e se firmando como estrela mundial.</p>
+            <span class="badge">186 jogos</span>
+            <span class="badge">105 gols</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2017-2023</div>
+          <div class="content">
+            <h3>Paris Saint-Germain</h3>
+            <p>Transferência recorde para o futebol francês, liderando o projeto do clube parisiense.</p>
+            <span class="badge">173 jogos</span>
+            <span class="badge">118 gols</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2023-2025</div>
+          <div class="content">
+            <h3>Al-Hilal</h3>
+            <p>Nova etapa na carreira, levando seu talento para o futebol do Oriente Médio.</p>
+            <span class="badge">7 jogos</span>
+            <span class="badge">1 gols</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="estatisticas" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Estatísticas</h2>
+      <div class="stats-container">
+        <div class="stats-box">
+          <div class="stat-value" id="gols-valor">400+</div>
+          <div class="stat-label">Gols na carreira</div>
+        </div>
+        <div class="stats-box">
+          <div class="stat-value" id="assist-valor">200+</div>
+          <div class="stat-label">Assistências</div>
+        </div>
+        <div class="stats-box">
+          <div class="stat-value" id="titulos-valor">30+</div>
+          <div class="stat-label">Títulos</div>
+        </div>
+        <div class="stats-box">
+          <div class="stat-value" id="jogos-valor">700+</div>
+          <div class="stat-label">Jogos</div>
+        </div>
+      </div>
+      
+      <div class="chart-container">
+        <h3>Gols por temporada</h3>
+        <canvas id="goalsChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="section">
+    <div class="container">
+      <h2 class="section-title">Galeria</h2>
+      <div class="gallery-tabs">
+        <button class="tab-btn active" data-filter="all">Todos</button>
+        <button class="tab-btn" data-filter="santos">Santos</button>
+        <button class="tab-btn" data-filter="barcelona">Barcelona</button>
+        <button class="tab-btn" data-filter="psg">PSG</button>
+        <button class="tab-btn" data-filter="selecao">Seleção</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-category="selecao">
+          <img src="assets/neymar_selecao1.jpg" alt="Neymar na Seleção Brasileira">
+          <div class="caption">Neymar na Seleção Brasileira</div>
+        </div>
+        <div class="gallery-item" data-category="psg">
+          <img src="assets/neymar_psg1.jpg" alt="Comemorando gol pelo PSG">
+          <div class="caption">Comemorando gol pelo PSG</div>
+        </div>
+        <div class="gallery-item" data-category="barcelona">
+          <img src="assets/msn.jpg" alt="Neymar no Barcelona com Messi e Suárez">
+          <div class="caption">Neymar no Barcelona com Messi e Suárez</div>
+        </div>
+        <div class="gallery-item" data-category="santos">
+          <img src="assets/inicio.jpg" alt="Início da carreira no Santos">
+          <div class="caption">Início da carreira no Santos</div>
+        </div>
+        <div class="gallery-item" data-category="barcelona">
+          <img src="assets/champions.jpg" alt="Neymar com a taça da Champions League">
+          <div class="caption">Neymar com a taça da Champions League</div>
+        </div>
+        <div class="gallery-item" data-category="selecao">
+          <img src="assets/olimpiadas.jpg" alt="Comemorando título pela Seleção">
+          <div class="caption">Comemorando título pela Seleção</div>
+        </div>
+        <div class="gallery-item" data-category="psg">
+          <img src="assets/psg.jpg" alt="Durante jogo pelo PSG">
+          <div class="caption">Durante jogo pelo PSG</div>
+        </div>
+        <div class="gallery-item" data-category="santos">
+          <img src="assets/10.jpg" alt="Neymar com a camisa 10 do Santos">
+          <div class="caption">Neymar com a camisa 10 do Santos</div>
+        </div>
+      </div>
+      <div class="gallery-lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="conquistas" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Conquistas</h2>
+      <div class="trophies-container">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>NJR<span>10</span></h2>
+          <p>Site não-oficial dedicado à carreira de Neymar Jr.</p>
+        </div>
+        <div class="social-links">
+          <a href="https://instagram.com/neymarjr" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/neymarjr" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://facebook.com/neymarjr" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://youtube.com/neymarjr" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; Guilherme Mendes - 2025 - Portfólio Front-end. Todos os direitos reservados.</p>
+        <p>Desenvolvido como demonstração de habilidades em desenvolvimento web.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

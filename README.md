@@ -1,13 +1,13 @@
 
-# 🔥 Neymar Jr - Site Portfólio
+# Neymar Jr - Portfólio
 
 ![Preview do Site](assets/ney.jpg)
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Site portfólio sobre a carreira do Neymar Jr, desenvolvido com tecnologias front-end modernas. Este projeto demonstra habilidades em desenvolvimento web, animações CSS, manipulação do DOM, e design responsivo.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5**: Estruturação semântica do conteúdo
 - **CSS3**: Estilização avançada com:
@@ -26,7 +26,7 @@ Site portfólio sobre a carreira do Neymar Jr, desenvolvido com tecnologias fron
 - **Google Fonts**: Tipografia Montserrat
 - **Chart.js**: Visualização de dados estatísticos
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Design Responsivo**: Experiência perfeita em qualquer dispositivo
 - **Navegação Suave**: Rolagem com animações entre seções
@@ -36,10 +36,11 @@ Site portfólio sobre a carreira do Neymar Jr, desenvolvido com tecnologias fron
 - **Gráficos Dinâmicos**: Visualização estatística da carreira
 - **Animações ao Scroll**: Elementos animados conforme o usuário rola a página
 
-## 🚀 Demonstração
+## Demonstração
 
 O site pode ser visualizado em: https://portifolioneymar.netlify.app/
-## 📱 Responsividade
+
+## Responsividade
 
 O layout foi desenvolvido com a metodologia mobile-first, garantindo que o site funcione perfeitamente em:
 - Smartphones
@@ -47,7 +48,7 @@ O layout foi desenvolvido com a metodologia mobile-first, garantindo que o site 
 - Desktops
 - Telas maiores
 
-## 🎯 Objetivos Técnicos
+## Objetivos Técnicos
 
 Este projeto foi desenvolvido com foco em:
 - **Performance**: Otimização de imagens e código
@@ -55,26 +56,26 @@ Este projeto foi desenvolvido com foco em:
 - **SEO**: Estrutura HTML semântica para melhor indexação
 - **UX/UI**: Interface limpa e intuitiva
 
-## 📊 Estatísticas e Visualização de Dados
+## Estatísticas e Visualização de Dados
 
 O projeto incorpora visualização avançada de dados com Chart.js para mostrar estatísticas da carreira do jogador de maneira interativa e visualmente atraente.
 
-## 🔄 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Clone este repositório
    ```
-   git clone https://github.com/seu-usuario/neymar-portfolio.git
+   git clone https://github.com/mxndex7/Portfolio-Neymar.git
    ```
 2. Abra o arquivo `index.html` em seu navegador
    
-## 🔍 Implementações Futuras
+## Implementações Futuras
 
 - [ ] Modo escuro/claro
 - [ ] Mais visualizações de dados
 - [ ] Galeria de vídeos
 - [ ] Internacionalização (múltiplos idiomas)
 
-## 👤 Desenvolvedor
+## Desenvolvedor
 
 Desenvolvido por Guilherme Mendes - Portfólio Front-end.
 
